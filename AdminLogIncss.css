@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background : url('AdminBG.jpg') no-repeat;
+  background-size:cover;
+}
+
+.container {
+  text-align: center;
+  
+}
+
+.sign-in-form {
+  background-color: #fff;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.9);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+h4 {
+	color: #ffcc00; 
+	margin-bottom: 45px;
+}
+
+.input-group {
+  margin: 20px 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #ffcc00;
+  color: #333;
+  box-shadow: 3px 3px 0 #888;
+}
+
+.button:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button:active {
+  transform: translate(0, 0);
+  box-shadow: 3px 3px 0 #888;
+}
